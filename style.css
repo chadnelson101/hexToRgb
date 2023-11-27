@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  #converter-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  input {
+    margin-bottom: 10px; /* Add some space at the bottom */
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  button {
+    margin-top: 10px; /* Add some space at the top */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #rgbOutput {
+    margin-top: 10px;
+    font-size: 18px;
+  }
